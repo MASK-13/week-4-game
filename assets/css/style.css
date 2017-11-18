@@ -1,1 +1,54 @@
-style.css
+h1 {
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1cm;
+    font-weight: bold;
+}
+
+#instructions {
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    font-color: white;
+}
+
+.container {
+    margin-left: 8cm;
+}
+
+#given {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#points {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#stats {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.gems {
+    width: 150px;
+    height: 150px;
+}
+
+#gemRow {
+    width: 1000px;
+    margin: auto;
+}
+
+#buttonReset {
+    margin-left: 15cm;
+}

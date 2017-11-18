@@ -1,1 +1,89 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--links CSS file-->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <!--JS and Jquery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+
+    <title>Chrys Rocks</title>
+</head>
+<!--the background image for the page -->
+
+<body background="assets/images/Background1.jpg">
+    <div class="page-header">
+        <h1>Chrys ROCKS
+	  	<strong>
+	  	<br>PICK one of Chrys's Rocks .
+	  	</strong>
+	  </h1>
+    </div>
+    <div class="panel panel-warning" id="instructions">
+        <div class="panel-heading">
+            <h3 class="panel-title">Instructions</h3>
+        </div>
+        <div class="panel-body">
+            PICK any ROCK and MATCH the JEWLERY BOX points to win, if you go over thew points you loose, any new game will randomly pick new values for the rocks, easy as first grade math.
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="panel panel-warning" id="given">
+            <div class="panel-heading">
+                <h3 class="panel-title">Points to Match</h3>
+            </div>
+            <div class="panel-body" id="scoreToMeet">
+            </div>
+        </div>
+        <div class="panel panel-warning" id="points">
+            <div class="panel-heading">
+                <h3 class="panel-title">Your Points</h3>
+            </div>
+            <div class="panel-body" id=scoreNow>
+                --
+            </div>
+        </div>
+        <div class="panel panel-warning" id="stats">
+            <div class="panel-heading">
+                <h3 class="panel-title">Stats</h3>
+            </div>
+            <div class="panel-body">
+                <span id="wins">Wins:  </span> || 
+                <span id="losses">Losses: </span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default btn-lg" id="buttonReset">Play Again?</button>
+    </div>
+    <br>
+    <div class="panel panel-warning" id="gemRow">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-6 col-md-2 col-md-offset-2">
+                    <img src="assets/images/blue.png" class="gems" id="blueGem" width="75">
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <img src="assets/images/green.png" class="gems" id="greenGem">
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <img src="assets/images/red.png" class="gems" id="redGem">
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <img src="assets/images/yellow.png" class="gems" id="yellowGem">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
